@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Geom:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    --bg-color: linear-gradient(45deg, #0a0a0a, #3a4452);
+    --calc-bg: rgba(0,0,0,0.25);
+    --shadow-color: rgba(113,115,119,0.5);
+    --btn-shadow: rgba(255,255,255,0.2);
+    --text-color: #ffffff;
+}
+
+.light-theme{
+    --bg-color: linear-gradient(45deg, #ffffff, #e6e6e6);
+    --calc-bg: rgba(255,255,255,0.85);
+    --shadow-color: rgba(0,0,0,0.12);
+    --btn-shadow: rgba(0,0,0,0.12);
+    --text-color: #000000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Geom", sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--bg-color);
+    transition: background 0.4s ease, color 0.4s ease;
+    position: relative;
+}
+
+.calculator{
+    border: 1px solid rgba(113,117,119,0.4);
+    padding: 20px;
+    border-radius: 16px;
+    background: var(--calc-bg);
+    box-shadow: 0px 6px 20px var(--shadow-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    display: inline-block;
+}
+
+.calculator:hover{
+    box-shadow: 0px 12px 40px rgba(0,0,0,0.25);
+    transform: scale(1.02);
+}
+
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px 10px 0 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px var(--shadow-color);
+    font-size: 40px;
+    text-align: right;
+    cursor: default;
+    color: var(--text-color);
+    outline: none;
+    border-radius: 8px;
+}
+
+input::placeholder{
+    color: rgba(255,255,255,0.7);
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: var(--text-color);
+    font-size: 20px;
+    box-shadow: -8px -8px 15px var(--btn-shadow);
+    cursor: pointer;
+    transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease, color 0.18s ease;
+}
+
+button:focus{
+    outline: 2px solid rgba(0,0,0,0.15);
+}
+
+.equalbutton{
+    background-color: #fb7c14;
+    color: #fff;
+}
+
+.operator{
+    color: #6dee0a;
+}
+
+button:hover{
+    box-shadow: 0px 6px 25px rgba(0,0,0,0.25);
+    transform: scale(1.08);
+}
+
+.equalbutton:hover{
+    background-color: #ff8f37;
+}
+
+.operator:hover{
+    color: #9aff45;
+}
+
+.theme-btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: transparent;
+    border: 1px solid var(--text-color);
+    padding: 8px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    color: var(--text-color);
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.theme-btn:hover{
+    transform: scale(1.08);
+}

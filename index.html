@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Calculator</title>
+</head>
+<body>
+    <button id="themeToggle" class="theme-btn" aria-label="Toggle theme">
+        <span id="icon">🌙</span>
+    </button>
+
+    <div class="calculator" role="application" aria-label="Calculator">
+        <input class="type" placeholder="0" id="inputbox" readonly />
+        <div class="row">
+            <button class="operator">AC</button>
+            <button class="operator">DEL</button>
+            <button class="operator">%</button>
+            <button class="operator">/</button>
+        </div>
+        <div class="row">
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="operator">*</button>
+        </div>
+        <div class="row">
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="operator">-</button>
+        </div>
+        <div class="row">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="operator">+</button>
+        </div>
+        <div class="row">
+            <button>00</button>
+            <button>0</button>
+            <button>.</button>
+            <button class="equalbutton">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
