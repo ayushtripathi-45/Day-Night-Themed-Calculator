@@ -1,6 +1,6 @@
- # 🌗 Day–Night Themed Calculator : 
+ # 🌗 Calculator : 
 
-   A modern, neumorphic-style calculator with smooth day–night theme switching.
+   A modern, neumorphic-style calculator with smooth day–night theme switching made with HTML, CSS, JavaScript.
 
    ------------------------------------------------------------------------------------------------------------------
 
@@ -89,7 +89,7 @@ https://github.com/user-attachments/assets/0b6d2e05-568a-480f-91c8-6e31e5f3a4cf
  
   ------------------------------------------------------------------------------------------------------------------
 
- ## 👤 Creator
+ ## 👤 Author
 
  ### Ayush Tripathi 👨‍🎓
 
@@ -100,3 +100,4 @@ Developer of the Day–Night Themed Neumorphic Calculator.
  - Email: ayushtripathi9821@gmail.com
 
  - LinkedIn: www.linkedin.com/in/ayush-tripathi45
+
