@@ -10,6 +10,9 @@
    It is lightweight, responsive, and easy to use.
 
    ------------------------------------------------------------------------------------------------------------------
+   🚀 **Live Demo** : [Calculator](https://basic-themed-calculator.vercel.app/) 
+
+   ---
 
  ## ✨ Features :
 
@@ -100,4 +103,5 @@ Developer of the Day–Night Themed Neumorphic Calculator.
  - Email: ayushtripathi9821@gmail.com
 
  - LinkedIn: www.linkedin.com/in/ayush-tripathi45
+
 
